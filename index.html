@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay Khorgade | Senior Service Desk Analyst</title>
+  <meta name="description" content="Personal site of Akshay Khorgade - Senior Analyst (IT Service Desk) and aspiring data enthusiast." />
+  
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --tag-bg: #0f172a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      padding: 2.5rem 1rem;
+    }
+
+    .container {
+      max-width: 680px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    header {
+      text-align: left;
+      padding: 0.5rem 0;
+    }
+
+    header h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    header .role {
+      font-size: 1.15rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-top: 0.2rem;
+    }
+
+    header .location {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    header .bio {
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+      font-size: 0.98rem;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.15rem;
+      color: var(--text);
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 0.5rem;
+      letter-spacing: 0.01em;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      border: 1px solid var(--card-border);
+      color: #cbd5e1;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-family: monospace;
+    }
+
+    .item-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+
+    .item-title {
+      font-weight: 600;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .item-duration {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .item-meta {
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    .item-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    .item-desc ul {
+      padding-left: 1.2rem;
+      margin-top: 0.3rem;
+    }
+
+    .item-desc li {
+      margin-bottom: 0.3rem;
+    }
+
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--tag-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      text-decoration: none;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .btn:hover {
+      background: var(--accent);
+      color: var(--bg);
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Header / Intro -->
+    <header>
+      <h1>Akshay Khorgade</h1>
+      <p class="role">Senior Analyst (IT Service Desk)</p>
+      <p class="location">Saoner / Nagpur, Maharashtra, India</p>
+      <p class="bio">
+        Experienced IT professional specializing in enterprise incident management, technical issue resolution, and user support. Continuously upskilling with foundational hands-on practice in Python and SQL for automation and data workflows.
+      </p>
+    </header>
+
+    <!-- Contact & Social Links -->
+    <div class="links-grid">
+      <a class="btn" href="https://www.linkedin.com/in/akshay-khorgade-a03a9b26a" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/akshaykhorgade" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="mailto:Khorgade.akshay10@gmail.com">Email Me</a>
+    </div>
+
+    <!-- Core Skills Toolkit -->
+    <section class="card">
+      <h2>Technical Toolkit</h2>
+      <div class="tags">
+        <span class="tag">Incident Management</span>
+        <span class="tag">First Contact Resolution (FCR)</span>
+        <span class="tag">ITIL Practices</span>
+        <span class="tag">Ticket Classification & Logging</span>
+        <span class="tag">Hierarchical Escalation</span>
+        <span class="tag">DNS Configuration</span>
+        <span class="tag">Domain & Web Hosting</span>
+        <span class="tag">Customer Communication</span>
+        <span class="tag">Python (Basics)</span>
+        <span class="tag">SQL (Basics)</span>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="card">
+      <h2>Professional Experience</h2>
+      <div class="item-group">
+        <div>
+          <div class="item-header">
+            <div class="item-title">HCLTech</div>
+            <div class="item-duration">October 2021 – Present</div>
+          </div>
+          <div class="item-meta">Senior Service Desk Analyst • Nagpur, Maharashtra</div>
+          <div class="item-desc">
+            <ul>
+              <li>Receive user calls, emails, and web tickets, creating Incident tickets with detailed logging of pertinent technical information.</li>
+              <li>Track and classify incoming incidents, delivering initial troubleshooting targeting high first contact resolution rates.</li>
+              <li>Perform hierarchical escalations to Service Desk Management and Incident Management teams when needed.</li>
+              <li>Maintain timely, structured status updates to end-users regarding Incidents and Service Requests.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="item-header">
+            <div class="item-title">Genpact</div>
+            <div class="item-duration">December 2019 – March 2021</div>
+          </div>
+          <div class="item-meta">Technical Support Representative</div>
+          <div class="item-desc">
+            <ul>
+              <li>Provided frontline telephone technical support for product suites spanning domain registration, DNS configurations, and web hosting environments.</li>
+              <li>Guided users through interface navigation and addressed connectivity and account troubleshooting.</li>
+              <li>Handled client concerns promptly to ensure uninterrupted service delivery.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="card">
+      <h2>Education</h2>
+      <div class="item-group">
+        <div>
+          <div class="item-header">
+            <div class="item-title">S.B. Jain Institute of Technology, Management & Research, Nagpur</div>
+            <div class="item-duration">2015 – 2019</div>
+          </div>
+          <div class="item-meta">Bachelor's Degree in Electrical Engineering</div>
+        </div>
+
+        <div>
+          <div class="item-header">
+            <div class="item-title">Bhalerao Junior College</div>
+          </div>
+          <div class="item-meta">Higher Secondary Certificate (HSC)</div>
+        </div>
+
+        <div>
+          <div class="item-header">
+            <div class="item-title">Khubchand Bajaj Central Public School</div>
+          </div>
+          <div class="item-meta">Secondary School Certificate (SSC)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ongoing Learning -->
+    <section class="card">
+      <h2>Learning & Upskilling</h2>
+      <div class="item-desc">
+        Actively building foundational practical skills in <strong>Python</strong> syntax, data structures, and relational database queries with <strong>SQL</strong> to expand into automation and entry-level data tasks.
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2026 Akshay Khorgade. Hosted on GitHub Pages.
+    </footer>
+
+  </div>
+
+</body>
+</html>
